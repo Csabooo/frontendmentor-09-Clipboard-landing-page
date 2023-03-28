@@ -2,15 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-font-size:18px;
+html {
+  font-size: 18px;
 }
 
-p{
-color: hsl(201%, 11%, 66%);
-font-size:0.8rem;
-line-height:1.3rem;
-
+p {
+  color: hsl(201%, 11%, 66%);
+  font-size: 0.8rem;
+  line-height: 1.3rem;
 }
 
 header {
@@ -21,15 +20,22 @@ header {
 }
 
 @layer base {
-
-  h1, h2, h3 {
+  h1,
+  h2,
+  h3 {
     @apply text-dark-Grayish-Blue;
   }
-
 }
 
 @media (max-width: 576px) {
   header {
     background-image: url("../images/bg-header-mobile.png");
+  }
+}
+
+@media (min-width: 1280px) {
+  p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
   }
 }
