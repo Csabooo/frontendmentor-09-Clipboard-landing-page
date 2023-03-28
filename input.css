@@ -7,7 +7,7 @@ font-size:18px;
 }
 
 p{
-color: hsl(201,11% ,66%);
+color: hsl(201%, 11%, 66%);
 font-size:0.8rem;
 line-height:1.3rem;
 
@@ -20,7 +20,13 @@ header {
   background-position: center;
 }
 
+@layer base {
 
+  h1, h2, h3 {
+    @apply text-dark-Grayish-Blue;
+  }
+
+}
 
 @media (max-width: 576px) {
   header {
