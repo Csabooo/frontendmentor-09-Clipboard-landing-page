@@ -10,10 +10,11 @@ p{
 color: hsl(201,11% ,66%);
 font-size:0.8rem;
 line-height:1.3rem;
+
 }
 
 header {
-  background-image: url("/images/bg-header-desktop.png");
+  background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
